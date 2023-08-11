@@ -1,0 +1,203 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.hero{
+    background: linear-gradient(rgba(18, 18, 18, 0.5), rgba(0, 0, 0, 0.5)),
+    url('.././../images/Hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.hero-content{
+    padding-top:250px;
+    padding-bottom:100px;
+}
+.hero-content h1{
+    font-weight: 600;
+}
+.hero-content p{
+    margin-top:10px;
+    text-align: justify;
+    
+}
+.hero-content button{
+    margin-top:10px;
+    padding:13px  50px;
+    font-weight: bolder;
+    border:none;
+    border-radius: 4px;
+}
+.hero-content button:hover{
+    color:white!important;
+}
+.banner-only img{
+    width:100%;
+    height:100%;
+}
+.about-miv{
+    padding-top:40px;
+    background-color: black;
+    padding-bottom:40px;
+}
+.about-one img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.introduce{
+    width:100%;
+    float:left;
+    
+    
+ }
+ .introduce-one{
+    width:50%;
+    float:left;
+    background-color: #B384FF;
+    height:600px;
+   
+    
+}
+.introduce-two{
+    width:50%;
+    float:left;
+}
+
+ .introduce-two img{
+    width:100%;
+    height:600px;
+    object-fit: cover;
+ }
+ .pride{
+    width:100%;
+    float:left;
+ }
+ .pride-one{
+    width:50%;
+    float:left;
+ }
+ .pride-one img{
+    width:100%;
+    object-fit: cover;
+    height: 631px;
+ }
+ .pride-two{
+    width:50%;
+    float:left;
+    height: 631px;
+    background-color: #53FFAC;
+ }
+ .nomination{
+    width:100%;
+    float:left
+ }
+ .nomination-one{
+    width:50%;
+    float:left;
+    height:450px;
+ }
+ .nomination-two{
+    width:50%;
+    float:left;
+ }
+ .nomination-one{
+    background-color: black;
+ }
+ .nomination-two img{
+    width:100%;
+    height:450px;
+    object-fit: cover;
+ }
+ .winner{
+    width:100%;
+    float:left;
+ }
+ .winner-one{
+    width:50%;
+    float:left;
+ }
+ .winner-one img{
+    width:100%;
+    height:400px;
+    object-fit: cover;
+ }
+ .winner-two{
+    width:50%;
+    float:left;
+    height:400px;
+    background-color:#B384FF;
+ }
+ .faq{
+    background-color: black;
+   
+    /* padding-bottom: 20px; */
+ }
+ .pride-month-winner img,
+ .asian_award_winner img{
+    height:300px;
+    object-fit: cover;
+ }
+ .featured_podcast{
+    background-color: #B384FF;
+ }
+ .gallery{
+    background-color: #C9F479;
+
+ }
+ .gallery-slider img{
+    width:100%;
+    height:300px;
+    object-fit: cover;
+   
+    
+ }
+ .slick-prev:before, .slick-next:before {
+    color:#B384FF!important;
+   
+ }
+
+@media(max-width:600px){
+    .hero-content h1{
+        margin-top:10px;
+    } 
+    .hero-content button{
+        width:100%;
+    }
+    .about-two{
+        margin-top:20px;
+    }
+    .introduce-one,
+    .introduce-two{
+        width:100%;
+        height:100%;
+    }
+    .pride-one{
+        width:100%;
+    }
+    .pride-two{
+        width:100%;
+    }
+    .nomination-one{
+        width:100%;
+
+    }
+    .nomination-two{
+        width:100%;
+    }
+    .winner-one{
+        width:100%;
+       
+     }
+     .winner-two{
+        width:100%;
+      
+     }
+     .pride-month-winner .col-12,
+     .asian_award_winner .col-12{
+        margin-top:20px;
+     }
+}
