@@ -167,7 +167,58 @@ body {
 .podcast_vidoes{
    background-color: #B384FF;
 }
+.upcoming_events{
+   background-color: #53FFAC;
+}
+.upcoming_events img,
+.past_events img{
+   width:100%;
+}
+.time .d{
+   border:1px solid red;
+   border-radius: 50%;
+   width:100px;
+   padding:8px;
+   font-size:15px;
+ 
+   
 
+
+}
+.time .h{
+   border:1px solid rgb(46, 212, 28);
+   border-radius: 50%;
+   width:100px;
+   font-size:15px;
+   padding:8px;
+  
+  
+}
+.time .m{
+   border:1px solid rgb(10, 89, 199);
+   border-radius: 50%;
+   width:100px;
+   font-size:15px;
+   padding:8px;
+  
+ 
+  
+}
+.time .s{
+   border:1px solid rgb(114, 9, 166);
+   border-radius: 50%;
+   width:100px;
+   font-size:15px;
+   padding:8px;
+  
+  
+}
+.past_events{
+   background-color: #B384FF;
+}
+.past_events .card{
+   background-color: #f5f5f5!important;
+}
 @media(max-width:600px){
     .hero-content h1{
         margin-top:10px;
