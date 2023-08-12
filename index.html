@@ -14,7 +14,9 @@
    <link rel="stylesheet" href="styles/css/style.css">
    <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick.css" />
    <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick-theme.css" />
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css" integrity="sha512-P9vJUXK+LyvAzj8otTOKzdfF1F3UYVl13+F8Fof8/2QNb8Twd6Vb+VD52I7+87tex9UXxnzPgWA3rH96RExA7A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css"
+      integrity="sha512-P9vJUXK+LyvAzj8otTOKzdfF1F3UYVl13+F8Fof8/2QNb8Twd6Vb+VD52I7+87tex9UXxnzPgWA3rH96RExA7A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -421,29 +423,70 @@
       </div>
    </div>
    <footer class="p-3" style="background-color: black;">
-     
-         <div class="row">
-            <div class="col-md-6 col-12">
-               <a href="index.html" class="fw-bolder text-decoration-none fs-2 text-light">Miv</a>
-            </div>
-            <div class="col-md-6 col-12 mt-2">
-               <div class="row">
-                  <div class="col-md-6 col-12 d-flex footer-second justify-between gap-3">
-                     <a href="#" class="text-decoration-none fs-6 text-light">Google</a>
-                     <a href="#" class="text-decoration-none fs-6 text-light">Yahoo</a>
-                     <a href="#" class="text-decoration-none fs-6 text-light">Outlook</a>
-                     <a href="#" class="text-decoration-none fs-6 text-light">iCal</a>
 
-                  </div>
-                  <div class="col-md-6 col-12 text-center">
-                    <a href="#" class="text-decoration-none text-light">CONTACT THE ORGANIZER</a>
-                  </div>
-               </div>
-
-            </div>
+      <div class="row">
+         <div class="col-md-6 col-12">
+            <a href="index.html" class="fw-bolder text-decoration-none fs-2 text-light">Miv</a>
          </div>
-      
+         <div class="col-md-6 col-12 mt-2">
+            <div class="row">
+               <div class="col-md-6 col-12 d-flex footer-second justify-between gap-3">
+                  <a href="#" class="text-decoration-none fs-6 text-light">Google</a>
+                  <a href="#" class="text-decoration-none fs-6 text-light">Yahoo</a>
+                  <a href="#" class="text-decoration-none fs-6 text-light">Outlook</a>
+                  <a href="#" class="text-decoration-none fs-6 text-light">iCal</a>
+
+               </div>
+               <div class="col-md-6 col-12 text-center">
+                  <a href="#" class="text-decoration-none text-light" data-bs-toggle="modal"
+                     data-bs-target="#staticBackdrop">CONTACT THE ORGANIZER</a>
+               </div>
+            </div>
+
+         </div>
+      </div>
+
    </footer>
+   <!-- Modal -->
+   <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+         <div class="modal-content">
+            <div class="modal-header" style="border-bottom:none!important">
+               <h1 class="modal-title fs-5 fw-bold" id="staticBackdropLabel">Contact the Organizer</h1>
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+               <form action="" class="login">
+                  <div class="mb-3 mt-3">
+                     <label for="">Name <span class="text-danger">*</span></label>
+                     <input type="text" class="form-control" name="phone/email" />
+
+                  </div>
+                  <div class="mb-3 mt-3">
+                     <label for="">Email <span class="text-danger">*</span></label>
+                     <input type="email" class="form-control" name="email" />
+
+                  </div>
+                  <div class="mb-3 mt-3">
+                     <label for="">Company</label>
+                     <input type="text" class="form-control" name="company" />
+
+                  </div>
+                  <div class="mb-3 mt-3">
+                     <label for="">Note <span class="text-danger">*</span></label>
+                     <textarea name="textarea" class="form-control"></textarea>
+
+                  </div>
+                  <div class="d-flex justify-content-center">
+                     <button class="btn fw-bold text-light" style="background-color:#B384FF ;">SEND MESSAGE</button>
+                  </div>
+               </form>
+            </div>
+
+         </div>
+      </div>
+   </div>
    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
       crossorigin="anonymous"></script>
