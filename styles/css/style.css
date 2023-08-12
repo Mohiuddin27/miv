@@ -164,10 +164,9 @@ body {
     color:#B384FF!important;
    
  }
- /* .nav-link{
-   background-color: #53FFAC;
-   margin-right:10px;
- } */
+.podcast_vidoes{
+   background-color: #B384FF;
+}
 
 @media(max-width:600px){
     .hero-content h1{
@@ -219,6 +218,19 @@ body {
     }
     .navbar-toggler-icon {
       filter: invert(100%); /* This inverts the color to make it white */
+    }
+    .podcast_vidoes iframe{
+      height:200px;
+    }
+    .podcast_vidoes .col-6{
+      margin-top:20px;
+    }
+    footer{
+      text-align: center;
+    }
+    .footer-second{
+      justify-content: center!important;
+      margin-bottom:10px;
     }
 }
 @media(max-width:360px)
