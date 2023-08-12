@@ -164,6 +164,10 @@ body {
     color:#B384FF!important;
    
  }
+ /* .nav-link{
+   background-color: #53FFAC;
+   margin-right:10px;
+ } */
 
 @media(max-width:600px){
     .hero-content h1{
@@ -212,6 +216,9 @@ body {
      
      .gallery-slider{
       overflow-x: hidden;
+    }
+    .navbar-toggler-icon {
+      filter: invert(100%); /* This inverts the color to make it white */
     }
 }
 @media(max-width:360px)
